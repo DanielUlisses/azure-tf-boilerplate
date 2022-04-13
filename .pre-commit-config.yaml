@@ -5,7 +5,7 @@ repos:
       - id: check-merge-conflict
       - id: end-of-file-fixer
       - id: no-commit-to-branch
-        args: [--branch, staging, --branch, main]
+        args: [--branch, stage, --branch, main]
   - repo: https://github.com/antonbabenko/pre-commit-terraform
     rev: v1.50.0
     hooks:
